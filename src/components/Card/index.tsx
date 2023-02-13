@@ -18,7 +18,6 @@ import { Feriado_Image } from '../../imgs/feriado';
 //------styles--------//
 
 import { styles } from './styles';
-import { LocationMap } from '../LocationMap';
 
 
 export interface CardProps extends TouchableOpacityProps {

@@ -75,7 +75,7 @@ export default function Home() {
 
   async function handleDeleteItem(id: CardProps) {
     try {
-      Alert.alert('Deletar', 'Deseja realmente deletar este feriado??', [
+      Alert.alert('Deletar', 'Deseja realmente deletar este feriado?', [
         {
           text: 'Não',
           onPress: () => console.log(),
