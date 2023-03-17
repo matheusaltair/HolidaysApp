@@ -1,16 +1,16 @@
-import { StyleSheet } from "react-native";
-import { RFValue } from 'react-native-responsive-fontsize';
+import { StyleSheet } from 'react-native'
+import { RFValue } from 'react-native-responsive-fontsize'
 
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'black',
-    alignItems: 'center',
+    alignItems: 'center'
   },
   activityIndicatorView: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'center'
   },
   header: {
     width: '100%',
@@ -23,7 +23,8 @@ export const styles = StyleSheet.create({
   },
   textHeader: {
     fontSize: RFValue(15),
-    color: '#000'
+    color: '#000',
+    marginTop: 20
   },
   viewHolidaysList: {
     flex: 1,
@@ -38,12 +39,12 @@ export const styles = StyleSheet.create({
     zIndex: 1,
     width: '100%',
     height: '100%',
-    borderRadius: 12,
+    borderRadius: 12
   },
   image: {
     width: '100%',
     height: '88%',
-    borderRadius: 12,
+    borderRadius: 12
   },
   button: {
     width: '100%',
@@ -63,12 +64,11 @@ export const styles = StyleSheet.create({
   touchableIcon: {
     flex: 1,
     alignSelf: 'flex-end',
-    alignItems: 'center',
+    alignItems: 'center'
   },
   icon: {
     fontSize: RFValue(30),
     paddingHorizontal: RFValue(10),
     paddingVertical: RFValue(5)
-  },
-
-});
+  }
+})
